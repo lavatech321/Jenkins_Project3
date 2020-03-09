@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Analyse') {
           steps {
-            sh 'python3 analyse.py'
+            sh 'python3 analysis.py'
           }
         }
     }
